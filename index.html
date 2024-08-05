@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Pokemon Champions League!</h1>
+<section class="grid-container">
+    <section class="image-holder">
+      <h1 id="champion">Champion</h1>
+      <div><img id="pokemon-type-1" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-2" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-3" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-4" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-5" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-6" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-7" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+    </section>
+    <section class="image-holder">
+      <h1 id="Runner-up">Runner-up</h1>
+      <div><img id="pokemon-type-8" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-9" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-10" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-11" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-12" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-13" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+    </section>
+    <section class="image-holder">
+      <h1 id="Loser">Loser</h1>
+      <div><img id="pokemon-type-14" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-15" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-16" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-17" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+      <div><img id="pokemon-type-18" class="pokemon-type" src="images/pokeball.png" alt="pokemon-type"></div>
+    </section>
+    <button onclick="changeImageSource()">randomize types</button>
+    <!-- <button id="fetchDataBtn">Fetch and Store Data</button> -->
+</head>
+    <form id="userForm">
+        <label for="fire">Name:</label>
+        <input type="text" id="fire" name="fire"><br><br>
+        <label for="water">Name:</label>
+        <input type="text" id="water" name="water"><br><br>
+        <label for="grass">Name:</label>
+        <input type="text" id="grass" name="grass"><br><br>
+        <label for="bug">Name:</label>
+        <input type="text" id="bug" name="bug"><br><br>
+        <label for="dark">Name:</label>
+        <input type="text" id="dark" name="dark"><br><br>
+        <label for="dragon">Name:</label>
+        <input type="text" id="dragon" name="dragon"><br><br>
+        <label for="electric">Name:</label>
+        <input type="text" id="electric" name="electric"><br><br>
+        <label for="fairy">Name:</label>
+        <input type="text" id="fairy" name="fairy"><br><br>
+        <label for="fighting">Name:</label>
+        <input type="text" id="fighting" name="fighting"><br><br>
+        <label for="flying">Name:</label>
+        <input type="text" id="flying" name="flying"><br><br>
+        <label for="ghost">Name:</label>
+        <input type="text" id="ghost" name="ghost"><br><br>
+        <label for="ground">Name:</label>
+        <input type="text" id="ground" name="ground"><br><br>
+        <label for="ice">Name:</label>
+        <input type="text" id="ice" name="ice"><br><br>
+        <label for="normal">Name:</label>
+        <input type="text" id="normal" name="normal"><br><br>
+        <label for="poison">Name:</label>
+        <input type="text" id="poison" name="poison"><br><br>
+        <label for="psychic">Name:</label>
+        <input type="text" id="psychic" name="psychic"><br><br>
+        <label for="rock">Name:</label>
+        <input type="text" id="rock" name="rock"><br><br>
+        <label for="steel">Name:</label>
+        <input type="text" id="steel" name="steel"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div id="imageContainer"></div>
+    <footer>
+        <script src="index.js"></script>
+    </footer>
+</body>
+</html>
