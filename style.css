@@ -1,9 +1,37 @@
-
+body{
+  text-align: center;
+  background-image: url('images/wp2682504-tyranitar-hd-wallpapers.jpg');
+    background-size: 165% 100%; /* Stretch image to fill the viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+.button{
+  margin: 20px;
+  background-color: #aa0404; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+}
+h1{
+  color: aliceblue;
+  margin: 20px;
+}
+label{
+  color: aliceblue;
+}
 .pokemon-type {
     position: absolute;
     cursor: grab;
     width: 50px;
     height: 50px;
+}
+.grid-container {
+  margin-left: 50px;
 }
 
 .pokemon-type:active {
